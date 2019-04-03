@@ -1,0 +1,11 @@
+c:\users\naoya.shikichi\documents\visual studio 2017\Projects\ToDoList2\ToDoList2\bin\Debug\ToDoList2.exe.config
+c:\users\naoya.shikichi\documents\visual studio 2017\Projects\ToDoList2\ToDoList2\bin\Debug\ToDoList2.exe
+c:\users\naoya.shikichi\documents\visual studio 2017\Projects\ToDoList2\ToDoList2\bin\Debug\ToDoList2.pdb
+c:\users\naoya.shikichi\documents\visual studio 2017\Projects\ToDoList2\ToDoList2\bin\Debug\ToDoList2.xml
+c:\users\naoya.shikichi\documents\visual studio 2017\Projects\ToDoList2\ToDoList2\obj\Debug\ToDoList2.vbprojResolveAssemblyReference.cache
+c:\users\naoya.shikichi\documents\visual studio 2017\Projects\ToDoList2\ToDoList2\obj\Debug\ToDoList2.Form1.resources
+c:\users\naoya.shikichi\documents\visual studio 2017\Projects\ToDoList2\ToDoList2\obj\Debug\ToDoList2.Resources.resources
+c:\users\naoya.shikichi\documents\visual studio 2017\Projects\ToDoList2\ToDoList2\obj\Debug\ToDoList2.vbproj.GenerateResource.Cache
+c:\users\naoya.shikichi\documents\visual studio 2017\Projects\ToDoList2\ToDoList2\obj\Debug\ToDoList2.exe
+c:\users\naoya.shikichi\documents\visual studio 2017\Projects\ToDoList2\ToDoList2\obj\Debug\ToDoList2.xml
+c:\users\naoya.shikichi\documents\visual studio 2017\Projects\ToDoList2\ToDoList2\obj\Debug\ToDoList2.pdb
