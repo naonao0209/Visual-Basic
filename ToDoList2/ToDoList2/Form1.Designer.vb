@@ -54,10 +54,33 @@ Partial Class Form1
         Me.number2 = New System.Windows.Forms.TextBox()
         Me.button13 = New System.Windows.Forms.Button()
         Me.number1 = New System.Windows.Forms.TextBox()
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.cal = New System.Windows.Forms.Button()
+        Me.zero = New System.Windows.Forms.Button()
+        Me.addition = New System.Windows.Forms.Button()
+        Me.point = New System.Windows.Forms.Button()
+        Me.subs = New System.Windows.Forms.Button()
+        Me.three = New System.Windows.Forms.Button()
+        Me.mul = New System.Windows.Forms.Button()
+        Me.two = New System.Windows.Forms.Button()
+        Me.one = New System.Windows.Forms.Button()
+        Me.six = New System.Windows.Forms.Button()
+        Me.div = New System.Windows.Forms.Button()
+        Me.five = New System.Windows.Forms.Button()
+        Me.four = New System.Windows.Forms.Button()
+        Me.nine = New System.Windows.Forms.Button()
+        Me.clear = New System.Windows.Forms.Button()
+        Me.eight = New System.Windows.Forms.Button()
+        Me.culbox = New System.Windows.Forms.RichTextBox()
+        Me.seven = New System.Windows.Forms.Button()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.results = New System.Windows.Forms.RichTextBox()
+        Me.C = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         Me.TabPage3.SuspendLayout()
+        Me.TabPage4.SuspendLayout()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -65,6 +88,7 @@ Partial Class Form1
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Controls.Add(Me.TabPage3)
+        Me.TabControl1.Controls.Add(Me.TabPage4)
         Me.TabControl1.Location = New System.Drawing.Point(28, 12)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
@@ -456,6 +480,295 @@ Partial Class Form1
         Me.number1.Size = New System.Drawing.Size(181, 27)
         Me.number1.TabIndex = 0
         '
+        'TabPage4
+        '
+        Me.TabPage4.BackColor = System.Drawing.Color.Gray
+        Me.TabPage4.Controls.Add(Me.C)
+        Me.TabPage4.Controls.Add(Me.results)
+        Me.TabPage4.Controls.Add(Me.TextBox2)
+        Me.TabPage4.Controls.Add(Me.cal)
+        Me.TabPage4.Controls.Add(Me.zero)
+        Me.TabPage4.Controls.Add(Me.addition)
+        Me.TabPage4.Controls.Add(Me.point)
+        Me.TabPage4.Controls.Add(Me.subs)
+        Me.TabPage4.Controls.Add(Me.three)
+        Me.TabPage4.Controls.Add(Me.mul)
+        Me.TabPage4.Controls.Add(Me.two)
+        Me.TabPage4.Controls.Add(Me.one)
+        Me.TabPage4.Controls.Add(Me.six)
+        Me.TabPage4.Controls.Add(Me.div)
+        Me.TabPage4.Controls.Add(Me.five)
+        Me.TabPage4.Controls.Add(Me.four)
+        Me.TabPage4.Controls.Add(Me.nine)
+        Me.TabPage4.Controls.Add(Me.clear)
+        Me.TabPage4.Controls.Add(Me.eight)
+        Me.TabPage4.Controls.Add(Me.culbox)
+        Me.TabPage4.Controls.Add(Me.seven)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 28)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Size = New System.Drawing.Size(543, 623)
+        Me.TabPage4.TabIndex = 3
+        Me.TabPage4.Text = "Calculator"
+        '
+        'cal
+        '
+        Me.cal.BackColor = System.Drawing.Color.Silver
+        Me.cal.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.cal.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cal.Location = New System.Drawing.Point(12, 524)
+        Me.cal.Name = "cal"
+        Me.cal.Size = New System.Drawing.Size(267, 81)
+        Me.cal.TabIndex = 33
+        Me.cal.Text = "="
+        Me.cal.UseVisualStyleBackColor = False
+        '
+        'zero
+        '
+        Me.zero.BackColor = System.Drawing.Color.Silver
+        Me.zero.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.zero.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.zero.Location = New System.Drawing.Point(12, 437)
+        Me.zero.Name = "zero"
+        Me.zero.Size = New System.Drawing.Size(176, 81)
+        Me.zero.TabIndex = 32
+        Me.zero.Text = "0"
+        Me.zero.UseVisualStyleBackColor = False
+        '
+        'addition
+        '
+        Me.addition.BackColor = System.Drawing.Color.Orange
+        Me.addition.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.addition.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.addition.FlatAppearance.BorderSize = 0
+        Me.addition.Font = New System.Drawing.Font("Comic Sans MS", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.addition.Location = New System.Drawing.Point(285, 524)
+        Me.addition.Name = "addition"
+        Me.addition.Size = New System.Drawing.Size(85, 81)
+        Me.addition.TabIndex = 31
+        Me.addition.Text = "+"
+        Me.addition.UseVisualStyleBackColor = False
+        '
+        'point
+        '
+        Me.point.BackColor = System.Drawing.Color.Silver
+        Me.point.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.point.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.point.Location = New System.Drawing.Point(194, 437)
+        Me.point.Name = "point"
+        Me.point.Size = New System.Drawing.Size(85, 81)
+        Me.point.TabIndex = 30
+        Me.point.Text = "."
+        Me.point.UseVisualStyleBackColor = False
+        '
+        'subs
+        '
+        Me.subs.BackColor = System.Drawing.Color.Orange
+        Me.subs.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.subs.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.subs.FlatAppearance.BorderSize = 0
+        Me.subs.Font = New System.Drawing.Font("Comic Sans MS", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.subs.Location = New System.Drawing.Point(285, 437)
+        Me.subs.Name = "subs"
+        Me.subs.Size = New System.Drawing.Size(85, 81)
+        Me.subs.TabIndex = 29
+        Me.subs.Text = "-"
+        Me.subs.UseVisualStyleBackColor = False
+        '
+        'three
+        '
+        Me.three.BackColor = System.Drawing.Color.Silver
+        Me.three.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.three.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.three.Location = New System.Drawing.Point(194, 350)
+        Me.three.Name = "three"
+        Me.three.Size = New System.Drawing.Size(85, 81)
+        Me.three.TabIndex = 28
+        Me.three.Text = "3"
+        Me.three.UseVisualStyleBackColor = False
+        '
+        'mul
+        '
+        Me.mul.BackColor = System.Drawing.Color.Orange
+        Me.mul.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.mul.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.mul.FlatAppearance.BorderSize = 0
+        Me.mul.Font = New System.Drawing.Font("Comic Sans MS", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.mul.Location = New System.Drawing.Point(285, 350)
+        Me.mul.Name = "mul"
+        Me.mul.Size = New System.Drawing.Size(85, 81)
+        Me.mul.TabIndex = 27
+        Me.mul.Text = "×"
+        Me.mul.UseVisualStyleBackColor = False
+        '
+        'two
+        '
+        Me.two.BackColor = System.Drawing.Color.Silver
+        Me.two.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.two.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.two.Location = New System.Drawing.Point(103, 350)
+        Me.two.Name = "two"
+        Me.two.Size = New System.Drawing.Size(85, 81)
+        Me.two.TabIndex = 26
+        Me.two.Text = "2"
+        Me.two.UseVisualStyleBackColor = False
+        '
+        'one
+        '
+        Me.one.BackColor = System.Drawing.Color.Silver
+        Me.one.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.one.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.one.Location = New System.Drawing.Point(12, 350)
+        Me.one.Name = "one"
+        Me.one.Size = New System.Drawing.Size(85, 81)
+        Me.one.TabIndex = 25
+        Me.one.Text = "1"
+        Me.one.UseVisualStyleBackColor = False
+        '
+        'six
+        '
+        Me.six.BackColor = System.Drawing.Color.Silver
+        Me.six.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.six.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.six.Location = New System.Drawing.Point(194, 263)
+        Me.six.Name = "six"
+        Me.six.Size = New System.Drawing.Size(85, 81)
+        Me.six.TabIndex = 24
+        Me.six.Text = "6"
+        Me.six.UseVisualStyleBackColor = False
+        '
+        'div
+        '
+        Me.div.BackColor = System.Drawing.Color.Orange
+        Me.div.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.div.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.div.FlatAppearance.BorderSize = 0
+        Me.div.Font = New System.Drawing.Font("Comic Sans MS", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.div.Location = New System.Drawing.Point(285, 263)
+        Me.div.Name = "div"
+        Me.div.Size = New System.Drawing.Size(85, 81)
+        Me.div.TabIndex = 23
+        Me.div.Text = "÷"
+        Me.div.UseVisualStyleBackColor = False
+        '
+        'five
+        '
+        Me.five.BackColor = System.Drawing.Color.Silver
+        Me.five.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.five.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.five.Location = New System.Drawing.Point(103, 263)
+        Me.five.Name = "five"
+        Me.five.Size = New System.Drawing.Size(85, 81)
+        Me.five.TabIndex = 22
+        Me.five.Text = "5"
+        Me.five.UseVisualStyleBackColor = False
+        '
+        'four
+        '
+        Me.four.BackColor = System.Drawing.Color.Silver
+        Me.four.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.four.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.four.Location = New System.Drawing.Point(12, 263)
+        Me.four.Name = "four"
+        Me.four.Size = New System.Drawing.Size(85, 81)
+        Me.four.TabIndex = 21
+        Me.four.Text = "4"
+        Me.four.UseVisualStyleBackColor = False
+        '
+        'nine
+        '
+        Me.nine.BackColor = System.Drawing.Color.Silver
+        Me.nine.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.nine.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.nine.Location = New System.Drawing.Point(194, 176)
+        Me.nine.Name = "nine"
+        Me.nine.Size = New System.Drawing.Size(85, 81)
+        Me.nine.TabIndex = 20
+        Me.nine.Text = "9"
+        Me.nine.UseVisualStyleBackColor = False
+        '
+        'clear
+        '
+        Me.clear.BackColor = System.Drawing.Color.Silver
+        Me.clear.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.clear.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.clear.Location = New System.Drawing.Point(285, 176)
+        Me.clear.Name = "clear"
+        Me.clear.Size = New System.Drawing.Size(85, 81)
+        Me.clear.TabIndex = 19
+        Me.clear.Text = "AC"
+        Me.clear.UseVisualStyleBackColor = False
+        '
+        'eight
+        '
+        Me.eight.BackColor = System.Drawing.Color.Silver
+        Me.eight.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.eight.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.eight.Location = New System.Drawing.Point(103, 176)
+        Me.eight.Name = "eight"
+        Me.eight.Size = New System.Drawing.Size(85, 81)
+        Me.eight.TabIndex = 18
+        Me.eight.Text = "8"
+        Me.eight.UseVisualStyleBackColor = False
+        '
+        'culbox
+        '
+        Me.culbox.BackColor = System.Drawing.Color.Black
+        Me.culbox.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.culbox.Font = New System.Drawing.Font("Comic Sans MS", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.culbox.ForeColor = System.Drawing.Color.White
+        Me.culbox.Location = New System.Drawing.Point(6, 108)
+        Me.culbox.Name = "culbox"
+        Me.culbox.ReadOnly = True
+        Me.culbox.Size = New System.Drawing.Size(364, 50)
+        Me.culbox.TabIndex = 17
+        Me.culbox.Text = ""
+        '
+        'seven
+        '
+        Me.seven.BackColor = System.Drawing.Color.Silver
+        Me.seven.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.seven.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.seven.Location = New System.Drawing.Point(12, 176)
+        Me.seven.Name = "seven"
+        Me.seven.Size = New System.Drawing.Size(85, 81)
+        Me.seven.TabIndex = 0
+        Me.seven.Text = "7"
+        Me.seven.UseVisualStyleBackColor = False
+        '
+        'TextBox2
+        '
+        Me.TextBox2.BackColor = System.Drawing.Color.Gray
+        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox2.Font = New System.Drawing.Font("Harlow Solid Italic", 36.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.Location = New System.Drawing.Point(6, 41)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(534, 61)
+        Me.TextBox2.TabIndex = 35
+        Me.TextBox2.Text = "Culculator"
+        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'results
+        '
+        Me.results.BackColor = System.Drawing.Color.Black
+        Me.results.ForeColor = System.Drawing.Color.White
+        Me.results.Location = New System.Drawing.Point(376, 176)
+        Me.results.Name = "results"
+        Me.results.ReadOnly = True
+        Me.results.Size = New System.Drawing.Size(164, 429)
+        Me.results.TabIndex = 36
+        Me.results.Text = ""
+        '
+        'C
+        '
+        Me.C.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.C.Font = New System.Drawing.Font("Comic Sans MS", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.C.Location = New System.Drawing.Point(376, 108)
+        Me.C.Name = "C"
+        Me.C.Size = New System.Drawing.Size(55, 50)
+        Me.C.TabIndex = 37
+        Me.C.Text = "C"
+        Me.C.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
@@ -475,6 +788,8 @@ Partial Class Form1
         Me.TabPage2.PerformLayout()
         Me.TabPage3.ResumeLayout(False)
         Me.TabPage3.PerformLayout()
+        Me.TabPage4.ResumeLayout(False)
+        Me.TabPage4.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -511,4 +826,26 @@ Partial Class Form1
     Friend WithEvents Button14 As Button
     Friend WithEvents Button16 As Button
     Friend WithEvents Button15 As Button
+    Friend WithEvents TabPage4 As TabPage
+    Friend WithEvents seven As Button
+    Friend WithEvents three As Button
+    Friend WithEvents mul As Button
+    Friend WithEvents two As Button
+    Friend WithEvents one As Button
+    Friend WithEvents six As Button
+    Friend WithEvents div As Button
+    Friend WithEvents five As Button
+    Friend WithEvents four As Button
+    Friend WithEvents nine As Button
+    Friend WithEvents clear As Button
+    Friend WithEvents eight As Button
+    Friend WithEvents culbox As RichTextBox
+    Friend WithEvents cal As Button
+    Friend WithEvents zero As Button
+    Friend WithEvents addition As Button
+    Friend WithEvents point As Button
+    Friend WithEvents subs As Button
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents results As RichTextBox
+    Friend WithEvents C As Button
 End Class

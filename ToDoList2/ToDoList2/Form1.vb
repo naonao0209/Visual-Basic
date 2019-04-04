@@ -304,5 +304,139 @@
 
     End Function
 
+    Private Sub TabPage4_Click(sender As Object, e As EventArgs) Handles TabPage4.Click
+
+    End Sub
+
+
+
+    'calc start
+    Dim first, second, res As Double
+    Dim userChoice As Integer
+
+    Private Sub zero_Click(sender As Object, e As EventArgs) Handles zero.Click
+        culbox.Text += "0"
+    End Sub
+
+    Private Sub one_Click(sender As Object, e As EventArgs) Handles one.Click
+        culbox.Text += "1"
+    End Sub
+
+    Private Sub two_Click(sender As Object, e As EventArgs) Handles two.Click
+        culbox.Text += "2"
+    End Sub
+
+    Private Sub three_Click(sender As Object, e As EventArgs) Handles three.Click
+        culbox.Text += "3"
+    End Sub
+
+    Private Sub four_Click(sender As Object, e As EventArgs) Handles four.Click
+        culbox.Text += "4"
+    End Sub
+
+    Private Sub five_Click(sender As Object, e As EventArgs) Handles five.Click
+        culbox.Text += "5"
+    End Sub
+
+    Private Sub six_Click(sender As Object, e As EventArgs) Handles six.Click
+        culbox.Text += "6"
+    End Sub
+
+    Private Sub seven_Click(sender As Object, e As EventArgs) Handles seven.Click
+        culbox.Text += "7"
+    End Sub
+
+    Private Sub eight_Click(sender As Object, e As EventArgs) Handles eight.Click
+        culbox.Text += "8"
+    End Sub
+
+    Private Sub nine_Click(sender As Object, e As EventArgs) Handles nine.Click
+        culbox.Text += "9"
+    End Sub
+
+    Private Sub point_Click(sender As Object, e As EventArgs) Handles point.Click
+        culbox.Text += "."
+    End Sub
+
+    Private Sub div_Click(sender As Object, e As EventArgs) Handles div.Click
+
+        first = culbox.Text
+        culbox.Text = ""
+        userChoice = 4
+
+    End Sub
+    Private Sub mul_Click(sender As Object, e As EventArgs) Handles mul.Click
+
+        first = culbox.Text
+        culbox.Text = ""
+        userChoice = 3
+
+    End Sub
+
+    Private Sub subs_Click(sender As Object, e As EventArgs) Handles subs.Click
+
+        first = culbox.Text
+        culbox.Text = ""
+        userChoice = 2
+
+    End Sub
+    Private Sub addition_Click(sender As Object, e As EventArgs) Handles addition.Click
+
+        first = culbox.Text
+        culbox.Text = ""
+        userChoice = 1
+
+    End Sub
+
+    Private Sub cal_Click(sender As Object, e As EventArgs) Handles cal.Click
+
+        second = culbox.Text
+        culbox.Text = ""
+
+        If userChoice = 1 Then
+            res = first + second
+            culbox.Text = res
+            results.Text += first & " + " & second & " = " & res.ToString() & vbCrLf
+        ElseIf userChoice = 2 Then
+            res = first - second
+            culbox.Text = res
+            results.Text += first & " - " & second & " = " & res.ToString() & vbCrLf
+        ElseIf userChoice = 3 Then
+            res = first * second
+            culbox.Text = res
+            results.Text += first & " × " & second & " = " & res.ToString() & vbCrLf
+        ElseIf userChoice = 4 Then
+            res = first / second
+            culbox.Text = res
+            results.Text += first & " ÷ " & second & " = " & res.ToString() & vbCrLf
+        End If
+
+    End Sub
+
+    Private Sub C_Click(sender As Object, e As EventArgs) Handles C.Click
+
+        culbox.Clear()
+
+    End Sub
+
+    Private Sub clear_Click(sender As Object, e As EventArgs) Handles clear.Click
+
+        DialogResult = MessageBox.Show("Are you sure you want to delete ALL?", "WARNING", MessageBoxButtons.YesNo)
+
+        If DialogResult.ToString = "Yes" Then
+            culbox.Clear()
+            results.Clear()
+            results.Text += vbCrLf
+        Else
+            'no action
+        End If
+
+
+    End Sub
+
+    Private Sub culbox_TextChanged(sender As Object, e As EventArgs) Handles culbox.TextChanged
+
+        culbox.SelectionAlignment = HorizontalAlignment.Right
+    End Sub
 
 End Class
