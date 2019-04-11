@@ -1,0 +1,12 @@
+C:\Users\naoya.shikichi\Documents\Visual Studio 2017\Projects\BankSimulator\BankSimulator\bin\Debug\BankSimulator.exe.config
+C:\Users\naoya.shikichi\Documents\Visual Studio 2017\Projects\BankSimulator\BankSimulator\bin\Debug\BankSimulator.exe
+C:\Users\naoya.shikichi\Documents\Visual Studio 2017\Projects\BankSimulator\BankSimulator\bin\Debug\BankSimulator.pdb
+C:\Users\naoya.shikichi\Documents\Visual Studio 2017\Projects\BankSimulator\BankSimulator\bin\Debug\BankSimulator.xml
+C:\Users\naoya.shikichi\Documents\Visual Studio 2017\Projects\BankSimulator\BankSimulator\obj\Debug\BankSimulator.vbprojAssemblyReference.cache
+C:\Users\naoya.shikichi\Documents\Visual Studio 2017\Projects\BankSimulator\BankSimulator\obj\Debug\BankSimulator.Form1.resources
+C:\Users\naoya.shikichi\Documents\Visual Studio 2017\Projects\BankSimulator\BankSimulator\obj\Debug\BankSimulator.Resources.resources
+C:\Users\naoya.shikichi\Documents\Visual Studio 2017\Projects\BankSimulator\BankSimulator\obj\Debug\BankSimulator.vbproj.GenerateResource.cache
+C:\Users\naoya.shikichi\Documents\Visual Studio 2017\Projects\BankSimulator\BankSimulator\obj\Debug\BankSimulator.vbproj.CoreCompileInputs.cache
+C:\Users\naoya.shikichi\Documents\Visual Studio 2017\Projects\BankSimulator\BankSimulator\obj\Debug\BankSimulator.exe
+C:\Users\naoya.shikichi\Documents\Visual Studio 2017\Projects\BankSimulator\BankSimulator\obj\Debug\BankSimulator.xml
+C:\Users\naoya.shikichi\Documents\Visual Studio 2017\Projects\BankSimulator\BankSimulator\obj\Debug\BankSimulator.pdb
