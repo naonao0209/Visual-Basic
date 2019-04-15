@@ -10,3 +10,6 @@ C:\Users\naoya.shikichi\Documents\Visual Studio 2017\Projects\BankSimulator\Bank
 C:\Users\naoya.shikichi\Documents\Visual Studio 2017\Projects\BankSimulator\BankSimulator\obj\Debug\BankSimulator.exe
 C:\Users\naoya.shikichi\Documents\Visual Studio 2017\Projects\BankSimulator\BankSimulator\obj\Debug\BankSimulator.xml
 C:\Users\naoya.shikichi\Documents\Visual Studio 2017\Projects\BankSimulator\BankSimulator\obj\Debug\BankSimulator.pdb
+C:\Users\naoya.shikichi\Documents\Visual Studio 2017\Projects\BankSimulator\BankSimulator\bin\Debug\CustomerInfo.accdb
+C:\Users\naoya.shikichi\Documents\Visual Studio 2017\Projects\BankSimulator\BankSimulator\obj\Debug\Interop.ADODB.dll
+C:\Users\naoya.shikichi\Documents\Visual Studio 2017\Projects\BankSimulator\BankSimulator\obj\Debug\BankSimulator.vbproj.ResolveComReference.cache

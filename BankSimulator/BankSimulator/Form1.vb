@@ -21,22 +21,63 @@
         tab.SelectedTab = LoginPage
     End Sub
     'input ID
-    Dim id As Integer = CusID.ToString
     Private Sub CusID_TextChanged(sender As Object, e As EventArgs) Handles CusID.TextChanged
-
+        validation()
     End Sub
     'input password
-    Dim pass As String = Password.ToString
     Private Sub Password_TextChanged(sender As Object, e As EventArgs) Handles Password.TextChanged
-
+        passCheck()
     End Sub
 
     Private Sub ConfirmButton_Click(sender As Object, e As EventArgs) Handles ConfirmButton.Click
-
+        If passCheck() Then
+            tab.SelectedTab = TabPage4
+        End If
     End Sub
 
-    Function isInputDataExist() As Boolean
+
+
+    Function isFormEmpty()
+
+        If CusID.Text = "" Then
+
+            Return True
+
+        End If
+
+        Return False
 
     End Function
 
+    Function validation()
+
+        recSetObj.MoveFirst()
+        Dim StrCriteria As String
+        StrCriteria = "ClientID ='" + CusID.Text + "'"
+        recSetObj.Find(StrCriteria)
+        If recSetObj.EOF Then
+            printError("No matching data in our record.")
+            Return False
+        End If
+        Return True
+    End Function
+    Function passCheck()
+
+        If validation() Then
+            Dim StrCriteria As String
+            StrCriteria = "Password ='" + Password.Text + "'"
+            recSetObj.Find(StrCriteria)
+            If recSetObj.EOF Then
+                printError("Password not correct.")
+                Return False
+            End If
+        Else
+            Return True
+        End If
+    End Function
+
+
+    Sub printError(message As String)
+        errorMessage.Text = message
+    End Sub
 End Class
